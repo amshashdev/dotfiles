@@ -12,6 +12,10 @@ floating_modifier $mod
 
 tiling_drag modifier titlebar
 
+for_window [class="firefox"] move to workspace $ws1 for_window
+for_window [class="discord"] move to workspace $ws4
+for_window [class="pavucontrol"] move to workspace $ws5
+
 # open dmenu
 bindsym $mod+d exec dmenu_run -i
 
