@@ -12,6 +12,9 @@ networkmanager
 network-manager-applet-git
 polybar
 neovim
+firefox
+discord
+pavucontrol
 
 # Additional Packges (requires self installation)
 vim-plug for nvim
